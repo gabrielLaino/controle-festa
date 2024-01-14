@@ -1,0 +1,28 @@
+#foto-lari{
+    width: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100px;
+}
+
+.bi{
+    font-size: 25px;
+}
+
+.bi:hover{
+    font-size: 50px;
+}
+
+#dito{
+    text-align: center;
+    font-family: monospace;
+}
