@@ -23,11 +23,23 @@
     <article id="dito" class="mt-3">
         <h3>Lista de presença para o aniversário</h3>
         <p>Essa é a lista de presença para o meu aniversário, então se não está nela não entra!!!!</p>
+        <p id="obs">OBS, se deseja remover um convidado, click no nome e aperte o botão de remover convidado!</p>
     </article>
-    <form action="">
+    <section action="">
         <label for="convidado">Adicionar Convidado:</label>
-        <input type="text" id="convidado">
-    </form>
+        <input type="text" id="convidado" placeholder="Nome do Convidado">
+        <button>Adicionar Convidado</button>
+        <button id="botao-remove">Remove Convidado</button>
+    </section>
+    <section id="contas">
+        <h5 id="contador">
+            Contador de Convidados
+        </h5>
+        <p id="numeros"></p>
+    </section>
+    <section>
+        <ul id="lista"></ul>
+    </section>
 
 
 
