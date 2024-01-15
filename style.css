@@ -26,3 +26,18 @@ header {
     text-align: center;
     font-family: monospace;
 }
+
+#obs{
+    font-size: 10px;
+}
+
+#contas{
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+
+#numeros {
+    text-align: center;
+    font-size: 25px;
+}
